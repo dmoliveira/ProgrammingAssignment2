@@ -1,6 +1,6 @@
 ## Create by Diego Marinho de Oliveira at 16th September, 2014
 
-# This function defines a special vector that 
+# This function defines a special matrix that 
 # can cache matrix inverse value
 makeCacheMatrix <- function(x = matrix()) {
     
