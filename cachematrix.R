@@ -1,4 +1,9 @@
 ## Create by Diego Marinho de Oliveira at 16th September, 2014
+# This file calculates the inverse matrix. If it was previously
+# calculated, then it will return the cache.
+# To use:
+# 1. cache_m <- makeCacheMatrix(m) # Create a special matrix; be m a matrix, e.g., m <- matrix(c(1,2,3,4), nrow=2, ncol=2)
+# 2. cacheSolve(cache_m) # Calculate inverse matrix
 
 # This function defines a special matrix that 
 # can cache matrix inverse value
